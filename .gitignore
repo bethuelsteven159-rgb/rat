@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# Build output
+web/dist/
+server/dist/
+
+# Local data: SQLite database + cloned/uploaded repositories
+data/
+
+# Environment
+.env
+
+# Test fixtures and other scratch directories
+test/.tmp-*/
+.tmp-*/
+
+# Misc
+*.log
+*.tsbuildinfo
+.DS_Store

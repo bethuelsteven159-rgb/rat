@@ -1,0 +1,24 @@
+{
+  "name": "@rat/web",
+  "version": "0.1.0",
+  "private": true,
+  "description": "RAT dashboard: repository metrics visualisation.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -p tsconfig.json && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "echarts": "^5.6.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.5.0",
+    "typescript": "^5.6.3",
+    "vite": "^6.3.5"
+  }
+}
